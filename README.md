@@ -43,7 +43,7 @@ If you want to make specific changes to the source code or extend it with your
 own functionalities this method will suit you.
 
 ```
-git clone https://github.com/mareo1208/test-readme.git
+git clone https://github.com/mareo1208/Drone-2d-custom-gym-env-for-reinforcement-learning.git
 cd Drone-2d-custom-gym-env-for-reinforcement-learning/drone_2d_custom_gym_env_package
 pip install -e .
 ```
