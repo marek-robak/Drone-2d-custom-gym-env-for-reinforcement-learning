@@ -142,6 +142,8 @@ following formula.
 
 Variables dx and dy are the fifth and sixth values from the agent observation space.
 
+Additionally, the drone is penalized for ending the episode prematurely with -10 penalties.
+
 ### Environment parameters
 
 This environment provides several parameters that can change the way it works.
