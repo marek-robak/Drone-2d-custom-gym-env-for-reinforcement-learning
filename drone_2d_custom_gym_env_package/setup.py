@@ -18,7 +18,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    url='https://github.com/mareo1208/Drone-2d-custom-gym-env-for-reinforcement-learning.git',
+    url='https://github.com/marek-robak/Drone-2d-custom-gym-env-for-reinforcement-learning.git',
     download_url='https://pypi.org/project/drone-2d-custom-gym-env/',
     packages=find_packages(),
     include_package_data = True,
