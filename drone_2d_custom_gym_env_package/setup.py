@@ -12,7 +12,7 @@ LONG_DESCRIPTION = ('This package contains OpenAI Gym environment designed for t
 
 setup(
     name='drone_2d_custom_gym_env',
-    version='1.3.1',
+    version='1.3.2',
     author='Marek Robak',
     author_email='maro.robak@gmail.com',
     description=DESCRIPTION,
