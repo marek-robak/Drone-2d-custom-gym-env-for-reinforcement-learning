@@ -137,8 +137,11 @@ The RL agent controlling the drone must be effectively encouraged to approach th
 target point. Therefore, the reward function for this environment adopts the
 following formula.
 
-<img src="https://render.githubusercontent.com/render/math?math={\Large\color{black}R(d_{x}, d_{y})=\frac{1}{d_{x}%2B0.1}%2B\frac{1}{d_{y}%2B0.1}}#gh-light-mode-only">
-<img src="https://render.githubusercontent.com/render/math?math={\Large\color{white}R(d_{x}, d_{y})=\frac{1}{d_{x}%2B0.1}%2B\frac{1}{d_{y}%2B0.1}}#gh-dark-mode-only">
+<picture> 
+  <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.latex?\Large\color{white}R%28d_{x}%2Cd_{y}%29%3D%5Cfrac%7B1%7D%7Bd_{x}%2B0.1%7D%2B%5Cfrac%7B1%7D%7Bd_{y}%2B0.1%7D">
+  <source media="(prefers-color-scheme: light)" srcset="https://latex.codecogs.com/svg.latex?\Large\color{black}R%28d_{x}%2Cd_{y}%29%3D%5Cfrac%7B1%7D%7Bd_{x}%2B0.1%7D%2B%5Cfrac%7B1%7D%7Bd_{y}%2B0.1%7D">
+  <img alt="R(dx, dy) = 1/(dx + 0.1) + 1/(dy + 0.1)">
+</picture>
 
 Variables dx and dy are the fifth and sixth values from the agent observation space.
 
