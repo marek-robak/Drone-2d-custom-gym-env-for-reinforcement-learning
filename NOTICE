@@ -1,0 +1,7 @@
+This code was created as part of my bachelor's thesis, which is available in Polish at https://www.ap.uj.edu.pl/diplomas/151837/?_s=1.
+It includes details on the training process for sample agents and a description of the reward function selection process.
+
+You may also be interested in other environments I have developed:
+- https://github.com/marek-robak/Drone-2d-custom-gym-env-for-reinforcement-learning
+- https://github.com/marek-robak/Single-cartpole-custom-gym-env-for-reinforcement-learning
+- https://github.com/marek-robak/Double-cartpole-custom-gym-env-for-reinforcement-learning
